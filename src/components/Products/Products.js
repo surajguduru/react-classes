@@ -2,6 +2,7 @@ import ProductCard from "../ProductCard/ProductCard";
 import Effect from "../Effect/Effect";
 import { useState, useEffect } from "react";
 import useWindowSize from "../../hooks/useWindowSize";
+import './Product.css';
 function Products({ cart, increaseQuantity, decreaseQuantity }) {
   // const products = [
   //       {
@@ -53,8 +54,8 @@ function Products({ cart, increaseQuantity, decreaseQuantity }) {
 
 
   return (
-    <div>
-      <div><Effect /></div>
+    <div className="product-card-container">
+      {/* <div><Effect /></div> */}
       {
         products.map(function (item, index) {
           return (<ProductCard key={index} product={item} cart={cart} increaseQuantity={increaseQuantity} decreaseQuantity={decreaseQuantity} />)

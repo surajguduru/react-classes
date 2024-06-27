@@ -1,0 +1,138 @@
+.redux-add-to-cart button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .redux-add-to-cart button::after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  .redux-add-to-cart button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .redux-add-to-cart button span {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .redux-add-to-cart button:hover span {
+    color: #183153;
+  }
+  
+  .redux-add-to-cart .increase-btn, .redux-add-to-cart .decrease-btn {
+    width: 40px;
+  }
+  
+  .redux-add-to-cart .add-to-cart-btn {
+    width: auto;
+  }
+  
+  .redux-add-to-cart .quantity {
+    font-size: 1.5em;
+    margin: 0 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #183153;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+  }
+.redux-add-to-cart button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153; 
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px; 
+    transition: all 0.4s ease-in-out; 
+  }
+  
+  .redux-add-to-cart button::after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  .redux-add-to-cart button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  .redux-add-to-cart button span {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    z-index: 2;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .redux-add-to-cart button:hover span {
+    color: #183153;
+  }
+  
+  .redux-add-to-cart .increase-btn, .redux-add-to-cart .decrease-btn {
+    width: 40px;
+  }
+  
+  .redux-add-to-cart .add-to-cart-btn {
+    width: auto;
+  }
+  
+  .redux-add-to-cart .quantity {
+    font-size: 1.5em;
+    margin: 0 10px;
+    font-family: "Montserrat", sans-serif;
+    color: #183153; 
+    display: inline-block;
+    min-width: 50px; 
+    text-align: center;
+  }
+  
+.quantity-controls{
+    display: flex;
+}
+
+.quantity{
+    margin-top: 250px;
+}
