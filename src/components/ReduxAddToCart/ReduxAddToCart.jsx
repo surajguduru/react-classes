@@ -3,7 +3,6 @@ import "./ReduxAddToCart.css";
 import React from 'react';
 
 function ReduxAddToCart({ product }) {
-    console.log("add to cart", product.id);
     let dispatch = useDispatch();
 
     function increase() {
@@ -14,9 +13,7 @@ function ReduxAddToCart({ product }) {
         dispatch({ type: "REMOVE_FROM_CART", payload: product });
     }
 
-    let quantity = useSelector((state) => {
-        return state.items[product.id]?.quantity || 0;
-    });
+    let quantity = useSelector((state) => state.items[product.id]?.quantity || 0);
 
     return (
         <div className="redux-add-to-cart">

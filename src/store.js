@@ -1,3 +1,4 @@
+// src/store.js
 import { act } from "react";
 import { createStore } from "redux";
 import { omit } from "lodash";

@@ -1,3 +1,4 @@
+// src/components/AddToCart/AddToCart.js  
 import { useContext } from "react";
 import CartContext from "../../context/CartContext";
 function AddToCart({ product }) {

@@ -1,3 +1,4 @@
+// src/store/Categories.js
 export function loadCategories() {
     return (dispatch) => {
         fetch("https://run.mocky.io/v3/dc25e1aa-3ae4-4c41-8626-b2529c231bcd").then(
